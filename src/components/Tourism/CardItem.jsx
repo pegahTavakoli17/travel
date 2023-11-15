@@ -1,5 +1,5 @@
 import React from "react";
-import "./tourism.css";
+import "./Tourism.css";
 export default function CardItem({ picSrc, title, text }) {
   return (
     <div className="tourism-card d-flex justify-content-center align-items-center flex-column">
