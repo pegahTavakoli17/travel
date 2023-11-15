@@ -12,6 +12,7 @@
     border:1px solid var(--primary);
     color:var(--primary) !important;
     pointer-events: none;
+    height: 40px;
 }
 
 .btn-orange,.btn-orange:hover{
