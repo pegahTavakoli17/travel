@@ -1,5 +1,5 @@
 import React from "react";
-import "./tourism.css";
+import "./Tourism.css";
 import CentralTourism from "./CentralTourism";
 export default function Tourism() {
   return (
