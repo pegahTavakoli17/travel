@@ -1,0 +1,58 @@
+.tour-page{
+min-height:100vh  !important;
+height: fit-content;
+background-image: url('/nature.jpeg');
+object-fit: contain;
+background-size: cover;
+background-position: center;
+display: flex;
+justify-content: start;
+align-items: center;
+/* min-height: 100vh; */
+/* opacity: .3; */
+}
+.grey-bar{ margin-top: 20px;
+    height: 60px;
+    background-color: rgb(228, 227, 227) !important;
+}
+.tour-select{
+    margin-top: 10px;
+    width: 300px !important;
+    border:2px solid #17a2b8;
+    outline: none !important;
+    border-radius: 10px;
+    padding: 5px;
+}
+select::-ms-expand {
+    margin-left: 10px !important;
+  }
+  button, select{
+    color: #17a2b8 !important;
+  }
+ 
+  .table-container {
+    width: 100% !important;
+    overflow-x: hidden !important;
+  }
+  
+  .table {
+    width: 100% !important  ;
+    white-space: nowrap !important;
+  }
+  .tour-card{
+    background:rgb(247, 247, 252);
+    width:100%;
+    height: 200px;
+    padding: 10px;
+  }
+  .tour-page-card{
+  background-color: white;
+  border: 1px solid #17a2b8;
+  border-radius: 15px !important;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start !important;
+  padding: 10px;
+ 
+  }

@@ -1,0 +1,21 @@
+.navbar {
+    min-height: 50px !important;
+    font-size: 1.2rem;
+    position: sticky !important;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    padding: 0 !important;
+    height: auto;
+    transition: height 4s !important;
+}
+.navbar-item {
+    vertical-align: middle !important;
+    align-items: center !important;
+    list-style-type: none !important;
+    margin-top: 10px !important;
+}
+.nav-logo {
+    width: 40px !important;
+    height: 40px !important;
+}

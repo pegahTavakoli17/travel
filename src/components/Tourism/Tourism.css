@@ -1,0 +1,28 @@
+
+.tourism-pic{
+    width: 100%;
+    min-height: calc(100vh - 53px) !important;
+    background-size: cover !important ;
+    background-position: center !important;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    object-fit:contain;
+}
+.portal-text{
+    text-shadow: 15px 15px 15px black;
+}
+.tourism-card{
+    border: 1px solid rgb(185, 178, 178);
+    position: relative;
+    width: 230px;
+    height: 120px;
+    cursor: pointer;
+}
+.tourism-card-pic{
+    position: absolute;
+    top:-20%;
+    left: 29%;
+    background-size: cover;
+    background-position: center;
+    width: 100px;
+    height: 50px;
+}
